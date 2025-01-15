@@ -1,0 +1,192 @@
+html, body {
+    margin: 0px;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to left, #5fecff, #feb47b); /* Gradient from pink to orange */
+
+   
+}
+body {
+    padding-right: 250px; /* Space for the aside */
+}
+aside {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgb(97, 58, 58), rgb(185, 118, 31));
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+main {
+    padding: 20px;
+}
+footer {
+    display: flex; /* Align items in a row */
+    justify-content: space-between; /* Space between each item */
+    align-items: center; /* Vertically center align the items */
+    padding: 10px 20px;
+    background-color: #547e83;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+header img {
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    color: #007BFF; /* Add hover effect */
+}
+p{
+    text-align: justify;
+}
+figcaption{
+    text-align: justify;
+}
+audio{
+ 
+   padding-left: 30%;
+}
+button{
+
+    position: relative;
+    left: 50%;
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Size of the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */       
+
+}    
+
+button:hover {
+background-color: #0056b3; /* Darker blue on hover */
+}
+#Goated_Moives{
+    padding: 30px;
+}
+.Goated_Movements{
+    padding:30px;
+}
+.Goated_frames{
+    padding:30px;
+}
+.Goated_music{
+    padding:30px;
+}
+.posters{
+    height: 40rem;
+    width: 75%;
+    position: relative;
+    left: 10%;  
+    border: solid,rgb(196, 26, 120);
+}
+thead{
+    text-align: center;
+}
+
+
+.styled-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* No gaps between borders */
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #4d63c5; /* Light gray border */
+    padding: 8px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+}
+
+.styled-table th {
+    background-color: #f4f4f4; /* Light gray background for header */
+    font-weight: bold; /* Bold header text */
+}
+
+.styled-table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+
+
+
+.loginbox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+.close:hover {
+    color: #000;
+}
+.loginbody
+{
+
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to left, #5fecff, #feb47b); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    
+
+}
