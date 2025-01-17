@@ -2,12 +2,12 @@ html, body {
     margin: 0px;
     padding: 0;
     height: 100%;
-    background: linear-gradient(to left, #5fecff, #feb47b); /* Gradient from pink to orange */
+    background: linear-gradient(to left, #5fecff, #feb47b); 
 
    
 }
 body {
-    padding-right: 250px; /* Space for the aside */
+    padding-right: 250px; 
 }
 aside {
     position: fixed;
@@ -25,9 +25,9 @@ main {
     padding: 20px;
 }
 footer {
-    display: flex; /* Align items in a row */
-    justify-content: space-between; /* Space between each item */
-    align-items: center; /* Vertically center align the items */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
     padding: 10px 20px;
     background-color: #547e83;
     color: white;
@@ -66,7 +66,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #007BFF; /* Add hover effect */
+    color: #007BFF; 
 }
 p{
     text-align: justify;
@@ -82,18 +82,17 @@ button{
 
     position: relative;
     left: 50%;
-    background-color: #007BFF; /* Blue background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px 15px; /* Size of the button */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */       
+    background-color: #007BFF; 
+    color: white; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    cursor: pointer;     
 
 }    
 
 button:hover {
-background-color: #0056b3; /* Darker blue on hover */
+background-color: #0056b3; 
 }
 #Goated_Moives{
     padding: 30px;
@@ -120,23 +119,23 @@ thead{
 
 
 .styled-table {
-    width: 100%; /* Full width */
-    border-collapse: collapse; /* No gaps between borders */
+    width: 100%; 
+    border-collapse: collapse; 
 }
 
 .styled-table th, .styled-table td {
-    border: 1px solid #4d63c5; /* Light gray border */
-    padding: 8px; /* Padding inside cells */
-    text-align: left; /* Align text to the left */
+    border: 1px solid #4d63c5; 
+    padding: 8px; 
+    text-align: left; 
 }
 
 .styled-table th {
-    background-color: #f4f4f4; /* Light gray background for header */
-    font-weight: bold; /* Bold header text */
+    background-color: #f4f4f4; 
+    font-weight: bold; 
 }
 
 .styled-table tr:hover {
-    background-color: #f1f1f1; /* Highlight row on hover */
+    background-color: #f1f1f1; 
 }
 
 

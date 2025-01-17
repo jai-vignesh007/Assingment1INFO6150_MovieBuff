@@ -1,6 +1,8 @@
 # Assingment1INFO6150_MovieBuff
 # Movie Buffs
 
+#Website Link- https://jai-vignesh007.github.io/Assingment1INFO6150_MovieBuff/
+
 ## Overview
 Movie Buffs is a web page dedicated to movie enthusiasts, offering insights, trivia, and detailed descriptions of some of the most iconic films. It includes movie summaries, awards, watch links, and trivia to engage users.
 
@@ -42,6 +44,9 @@ Movie Buffs is a web page dedicated to movie enthusiasts, offering insights, tri
   - `<video>`: Embeds video content.
   - `<p>`: Paragraphs for descriptions.
   - `<hr>`: Horizontal rule for separation.
+   - `<figure>`: Used to group the images of the poster and audio
+   -`<figcaption>`:used to give a small caption about the movie frame
+
 
 ---
 
